@@ -1,0 +1,63 @@
+Catatan Minggu 1
+
+Catatan Minggu 2
+
+Catatan Minggu 3
+
+
+
+Script SQL
+with 
+	filtered_transactions as (
+		select *
+		from datasource_sql_ds11.transaction
+		where store_id = 2
+	),
+	pool as (
+		select id from datasource_sql_ds11.customer 
+		where email <> 'Gmail' and city = 'Jakarta'
+	)
+
+select 
+	c.id, 
+	sum(t.quantity)
+from datasource_sql_ds11.customer c
+left join filtered_transactions t on c.id = t.customer_id
+left join (
+	select id, type from datasource_sql_ds11.store where id = 2
+	) s on t.store_id = s.id 
+left join datasource_sql_ds11.product p on t.product_id = p.id
+where c.id in (select id from pool)
+group by 1
+order by 2 desc
+limit 10
+
+
+SELECT
+	category as "Kategori", 
+	sub_category as "Sub Kategori", 
+	SUM(quantity) as "Jumlah Pembelian", 
+	SUM(sales) as "Total Sales", 
+	SUM(profit) as "Profit"
+FROM datasource.order_details_csv
+WHERE 
+	quantity >= 2 
+	and quantity <= 3 
+	and sales >= 30 
+	and sales <= 100
+GROUP BY 1,2
+HAVING SUM(quantity) >= 200 and SUM(sales) <= 10000
+ORDER BY 
+	category ASC,
+	CASE
+		WHEN sub_category = 'Furnishings' THEN 1
+		WHEN sub_category = 'Supplies' THEN 2
+		WHEN sub_category = 'Fasteners' THEN 3
+		WHEN sub_category = 'Paper' THEN 4
+		WHEN sub_category = 'Binders' THEN 5
+		ELSE 6
+	END
+LIMIT 3
+PERCENTILE_CONT(0.8) WITHIN GROUP(ORDER BY total_profit)
+% : Kita ga tau ada berapa karakter setelah/sebelum 
+_ : Kita tau ada berapa karakter setelah/sebelum

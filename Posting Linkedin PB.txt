@@ -1,0 +1,41 @@
+Week 1 Learning Insight
+Hallo,
+Perkenalkan saya Iwan Wahyu Setyawan
+Setelah selalu ragu dan membatalkan niat untuk posting atau sekedar sharing karena bingung mau posting apa, akhirnyaaaa sekarang saya lakukan jugaaa 😊😊
+Pada postingan perdana ini saya mencoba bercerita tentang apa yang saya dapatkan di minggu pertama saya belajar Data Science di @DigitalSkola
+
+Sebagai awal pembelajaran di sesi 1 terlebih dahulu diperkenalkan tentang @DigitalSkola kemudian materi-materi yang akan diajarkan serta para pengajar yang merupakan praktis-praktisi berpengalaman di bidang Data Science.
+Pada sesi selanjutnya yaitu sesi 2 dan 3 mulai diperkenalkan gambaran tentang apa itu data science, implementasi data science dalam bisnis,skill yang dibutuhkan untuk menjadi Data Scientist serta metodologi yang digunakan dalam processing sesuai goals apa yang dibutuhkan.
+
+Jujur saya sangat excited mengikuti pembelajaran ini karena saya sadar di era yang serba digital ini skill yang dimiliki harus selalu update mengikuti perkembangan. Jangan hanya berpuas diri dan terlena dengan kondisi saat ini dan akhirnya sadar saat sudah jauh tertinggal.
+
+Nah, untuk rekan-rekan yang penasaran dengan materi yang dipelajari di sesi awal pembelajaran Data Science @DigitalSkola ini silahkan klik dibawah ini ya
+
+Terimakasih
+Salam
+
+#DataScience 
+#BootcampDataScience 
+#SkolaClassDataScience 
+#DigitalSkola
+
+
+Week 2
+Post #02
+
+Masih tentang belajar Data Science yang sudah masuk minggu ke-2 di @DigitalSkola
+Pada 3 sesi minggu ke-2 ini materi pembelajaran yang dibahas tentang Data and Data Science pada sesi pertama kemudian Basic SQL untuk sesi kedua dan pada sesi terakhir dilanjut Intermediate SQL. 
+
+Oiya, untuk yang penasaran dan mungkin bertanya-tanya kalau ikut belajar Data Science bersama @Digital Skola apa harus background IT, saya bisa sampaikan bahwa ga harus kok. Karena yang background bukan bidang IT seperti saya pun bisa dan para pengajarnya pun akan sangat membantu apabila kita menghadapi kesulitan khususnya untuk yang punya background bukan bidang IT. 😊😊😊
+
+Untuk rekan-rekan yang ingin tahu pembahasan materi pada minggu kedua yang sudah dirangkum oleh kelompok kami, lebih jelasnya silahkan langsung klik aja attachment dibawah yaaa. 
+Boleh nih kalau misalkan ada masukan dan saran untuk rangkuman materi tersebut untuk perbaikan kami.
+
+
+Terimakasih
+Salam
+ 
+#DataScience 
+#BootcampDataScience 
+#SkolaClassDataScience 
+#DigitalSkola 
